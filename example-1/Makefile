@@ -14,4 +14,6 @@ hello: hello.cpp
 
 clean:
 	@echo "Cleaning up..."
-	rm -f hello hello-dbg
+	rm -f hello
+clean:
+	rm -f hello-dbg
