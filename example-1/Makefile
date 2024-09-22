@@ -5,7 +5,7 @@ all: debug release
 debug: hello-dbg
 
 hello-dbg: hello.cpp
-	g++ -O2 hello.cpp -o hello-dbg -DNDEBUG -Wall
+	g++ -g -O0 hello.cpp -o hello-dbg -Wall
 
 release: hello
 
