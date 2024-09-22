@@ -14,6 +14,4 @@ hello: hello.cpp
 
 clean:
 	@echo "Cleaning up..."
-	rm -f hello
-clean:
-	rm -f hello-dbg
+	sudo rm -f hello hello-dbg
